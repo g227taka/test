@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> //exit,mallocのヘッダファイル
+#include <math.h> //sqrtのヘッダーファイル
 
 int myRoot(double x) // x の平方根を返す関数。x >= 0 ではないとき exit(1) とする。 
 {
