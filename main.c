@@ -16,7 +16,8 @@ int main(void)
 {
   int  i;
   double  * x  =（double  *）malloc（sizeof（double）*  100）;
-
+  
+　i = 0; //変数の初期化
   while( i <= 100 ){
     x[i] = myRoot((double)i);
     i++;
